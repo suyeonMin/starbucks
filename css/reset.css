@@ -1,0 +1,28 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,th,td,input,select,button{margin:0;padding:0;letter-spacing:-1px;line-height:1.4}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+html{overflow-y:scroll;}
+html,body{height:100%}
+body{font-family: 'Nanum Gothic', sans-serif;font-size:16px;font-weight:400;color:#333;}
+fieldset,img{display: block;border:0 none;}
+dl,ul,ol,menu,li{list-style:none}
+button{overflow:visible;border:0 none;background-color:transparent;cursor:pointer;outline: none;}
+button::-moz-focus-inner{padding:0;border:0}
+address,caption,em{font-style:normal}
+a{color:#333;text-decoration:none}
+a:focus,a:active,a:hover{color:#333;text-decoration:underline}
+table{border-collapse:collapse;table-layout:fixed;border-spacing:0}
+hr,caption{display:none}
+input,button,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit;vertical-align:middle;outline: none;}
+select {appearance : none; -webkit-appearance : none; -moz-appearance : none;outline: none;}
+select::-ms-expand {display: none;}
+
+
+/* common */
+.blind,legend{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0;white-space:nowrap}
+#skip{height:0}
+#skip a{display:block;position:absolute;left:0;top:-100px;width:auto;height:1px;text-align:center}
+#skip a:focus,#skip a:active{position:absolute;top:0;z-index:100;padding:10px;width:100%;height:auto;background-color:#e55039;font-size:14px;color:#fff;text-decoration:none}
+.inner {position: relative; margin: 0 auto; width: 1100px;}
+
+
